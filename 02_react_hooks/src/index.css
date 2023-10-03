@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.warper {
+    background-color: #212121;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
