@@ -6,13 +6,14 @@ const AddTodo = () => {
     const dispatch = useDispatch()
 
     const addTodoHandeler = () => {
+        if (!input) return 
         dispatch(
             addTodo(input)
         )
         setInput("")
     }
   return (
-    <div>
+    <div className='bg-slate-600'>
         <input type='text'
             value={input}
             onChange={(e) => setInput(e.target.value)}
